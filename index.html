@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Steganography</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+<h1>Hide an Image Into Another</h1>
+<div>
+  <canvas id="canv1" class="canvas"></canvas>
+  <canvas id="canv2" class="canvas"></canvas>
+</div>
+<p>
+  Upload the image to hide:
+  <input id="fInput1" class="file" type="file" accept="image/*" multiple="false" onchange="upload1()">
+</p>
+<p>
+  Upload the image to be seen:
+  <input id="fInput2" class="file" type="file" accept="image/*" multiple="false" onchange="upload2()">
+</p>
+<p>
+  <input type="button" id="hide" class="button" value="Hide" onclick="hide()">
+  <input type="button" id="rst" class="button" value="Reset" onclick="reset()">
+  <a id="link"></a>
+  <input type="button" id="dwnld" class="button" value="Download" onclick="download()">
+</p>
+<h2>Resulting Image</h2>
+<div>
+  <canvas id="canv3" class="canvas">
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

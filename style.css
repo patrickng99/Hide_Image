@@ -1,0 +1,56 @@
+body {
+  background-image: repeating-radial-gradient(#996633, #33cccc);
+}
+h1 {
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  font-family: cursive;
+  text-decoration: underline;
+}
+div {
+  text-align: center;
+}
+.canvas {
+  height: 200px;
+  width: 300px;
+  border: 5px solid #ffff15;
+  padding: 20;
+  margin: 20px;
+}
+p {
+  text-align: center;
+  font-family: cursive;
+  color: #ffffff;
+}
+.file {
+  margin: 10px;
+  padding: 5px;
+}
+.button {
+  cursor: pointer;
+  border-radius: 12px;
+  height: 50px;
+  width: 80px;
+  background-color: #ffffff;
+  font-family: cursive;
+  font-size: 15px;
+  transition-duration: 0.5s;
+}
+#hide:hover {
+  background-image: linear-gradient(cyan, green);
+  color: #000000;
+}
+#rst:hover {
+  background-image: linear-gradient(orange, yellow);
+  color: #0000a5;
+}
+#dwnld:hover {
+  background-image: linear-gradient(black, yellow);
+  color: #ffffff;
+}
+h2 {
+  text-align: center;
+  color: #ffffff;
+  font-family: cursive;
+}
